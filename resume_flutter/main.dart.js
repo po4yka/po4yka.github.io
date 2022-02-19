@@ -53820,7 +53820,7 @@ h=A.fq(A.b([A.bb(e,e,h),A.ew(e,new A.qj(e),e,e,new A.d5(new A.D(c),e,e,A.m9(new 
 k=f.d.a.a
 m=k*0.02
 g=k*0.1
-return A.a9I(A.ew(e,A.a8T(A.b([s,r,q,p,o,n,new A.mR(l,e),i,new A.mR(h,e),A.bb(e,m,e),new A.mR(A.fq(A.b([A.bb(e,e,g),A.ew(e,new A.pZ(e),e,e,new A.d5(B.i,e,e,A.m9(new A.bh(10,10)),e,e,B.a1),e,new A.aM(32,32,32,32),k*0.29),A.bb(e,e,m),A.ew(e,new A.qv(e),e,e,new A.d5(new A.D(c),e,e,A.m9(new A.bh(10,10)),e,e,B.a1),e,new A.aM(32,32,32,32),k*0.49),A.bb(e,e,g)],j),B.b4,B.a3),e),A.bb(e,120,e),A.bW(B.i,d,new A.aM(0,20,0,0),"Copyright \xa9 2020 My Flutter Profile",B.aT,16),A.bb(e,70,e),new A.ul(e),A.bb(e,70,e)],j)),e,e,B.tj,e,e,17976931348623157e292))}}
+return A.a9I(A.ew(e,A.a8T(A.b([s,r,q,p,o,n,new A.mR(l,e),i,new A.mR(h,e),A.bb(e,m,e),new A.mR(A.fq(A.b([A.bb(e,e,g),A.ew(e,new A.pZ(e),e,e,new A.d5(B.i,e,e,A.m9(new A.bh(10,10)),e,e,B.a1),e,new A.aM(32,32,32,32),k*0.29),A.bb(e,e,m),A.ew(e,new A.qv(e),e,e,new A.d5(new A.D(c),e,e,A.m9(new A.bh(10,10)),e,e,B.a1),e,new A.aM(32,32,32,32),k*0.49),A.bb(e,e,g)],j),B.b4,B.a3),e),A.bb(e,120,e),A.bW(B.i,d,new A.aM(0,20,0,0),"Copyright \xa9 2022 My Flutter Profile",B.aT,16),A.bb(e,70,e),new A.ul(e),A.bb(e,70,e)],j)),e,e,B.tj,e,e,17976931348623157e292))}}
 A.kW.prototype={
 aJ(){return new A.H1(B.m)}}
 A.H1.prototype={
@@ -53846,7 +53846,7 @@ A.qT.prototype={
 L(a,b){return A.pW(A.b([A.bW(new A.D(4284590833),"Proxima_Bold",B.C,"Nikita Pochaev",B.r,28),A.bW(B.l,"Proxima",new A.aM(0,10,0,0),"Mobile applications developer",B.r,20),A.bW(B.l,"roboto",new A.aM(0,20,0,0),"This website developed in Flutter for web!",B.r,16)],t.c),B.aL)}}
 A.ug.prototype={
 L(a,b){var s="Proxima",r="roboto",q=null,p=4280304016,o=t.c,n=t.qU
-return A.pW(A.b([A.bW(B.i,s,B.C,"Skills",B.r,28),new A.eH(B.bT,A.fq(A.b([A.bW(B.i,s,B.C,"Kotlin / Java",B.r,16),A.bW(B.i,r,B.C,"70%",B.r,16)],o),B.c6,B.a3),q),A.AM(B.i,0.7,new A.hN(new A.D(p),n)),new A.eH(B.bT,A.fq(A.b([A.bW(B.i,s,B.C,"Android",B.r,16),A.bW(B.i,r,B.C,"70%",B.r,16)],o),B.c6,B.a3),q),A.AM(B.i,0.7,new A.hN(new A.D(p),n)),new A.eH(B.bT,A.fq(A.b([A.bW(B.i,s,B.C,"Jetpack Compose",B.r,16),A.bW(B.i,r,B.C,"60%",B.r,16)],o),B.c6,B.a3),q),A.AM(B.i,0.5,new A.hN(new A.D(p),n)),new A.eH(B.bT,A.fq(A.b([A.bW(B.i,s,B.C,"KMM",B.r,16),A.bW(B.i,r,B.C,"50%",B.r,16)],o),B.c6,B.a3),q),new A.eH(B.bT,A.fq(A.b([A.bW(B.i,s,B.C,"Dart / Flutter",B.r,16),A.bW(B.i,r,B.C,"50%",B.r,16)],o),B.c6,B.a3),q),A.AM(B.i,0.5,new A.hN(new A.D(p),n)),A.AM(B.i,0.5,new A.hN(new A.D(p),n))],o),B.aL)}}
+return A.pW(A.b([A.bW(B.i,s,B.C,"Skills",B.r,28),new A.eH(B.bT,A.fq(A.b([A.bW(B.i,s,B.C,"Kotlin / Java",B.r,16),A.bW(B.i,r,B.C,"70%",B.r,16)],o),B.c6,B.a3),q),A.AM(B.i,0.7,new A.hN(new A.D(p),n)),new A.eH(B.bT,A.fq(A.b([A.bW(B.i,s,B.C,"Android",B.r,16),A.bW(B.i,r,B.C,"70%",B.r,16)],o),B.c6,B.a3),q),A.AM(B.i,0.7,new A.hN(new A.D(p),n)),new A.eH(B.bT,A.fq(A.b([A.bW(B.i,s,B.C,"Jetpack Compose",B.r,16),A.bW(B.i,r,B.C,"60%",B.r,16)],o),B.c6,B.a3),q),A.AM(B.i,0.5,new A.hN(new A.D(p),n)),new A.eH(B.bT,A.fq(A.b([A.bW(B.i,s,B.C,"KMM",B.r,16),A.bW(B.i,r,B.C,"50%",B.r,16)],o),B.c6,B.a3),q),A.AM(B.i,0.5,new A.hN(new A.D(p),n)),new A.eH(B.bT,A.fq(A.b([A.bW(B.i,s,B.C,"Dart / Flutter",B.r,16),A.bW(B.i,r,B.C,"50%",B.r,16)],o),B.c6,B.a3),q),A.AM(B.i,0.5,new A.hN(new A.D(p),n))],o),B.aL)}}
 A.ul.prototype={
 L(a,b){var s=null
 return A.fq(A.b([A.a8z(A.PV("assets/icons/linkedin.webp",s,s),10,new A.WV()),A.bb(s,s,20),A.a8z(A.PV("assets/icons/facebook.webp",s,s),10,new A.WW())],t.c),B.AO,B.a3)}}
