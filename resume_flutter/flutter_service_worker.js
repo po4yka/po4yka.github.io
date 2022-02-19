@@ -3,27 +3,31 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "ff8ddefc7e2439332adf3c10391775af",
-"assets/assets/icons/facebook.png": "a4ea3da69e89c5dcc9207ef7fe719610",
-"assets/assets/icons/facebook.webp": "1d596f22d7d4090d408cc73271508208",
-"assets/assets/icons/linkedin.png": "5f6a0e9ad641f9561dddc1798048aff5",
-"assets/assets/icons/linkedin.webp": "37d310909007e24c86083708415eb5c0",
-"assets/assets/images/avatar.png": "729b8f58f648abfa0887c214859a7539",
-"assets/assets/images/background.jpg": "a91d33a56e9fd0d6c7d90399a5603491",
-"assets/FontManifest.json": "fa1532472ac8d61e1acaec83b2fc4135",
-"assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
-"assets/fonts/Proxima_Nova_Bold.ttf": "91d3c9f35d738ae967ceadc661b29c2a",
-"assets/fonts/Proxima_Nova_Reg.ttf": "99e6f15dece8b6cbc0edee1da31e0365",
-"assets/NOTICES": "6fcb6ead5763239dbfd6b9a8dccbc601",
-"assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "115e937bb829a890521f72d2e664b632",
+  "version.json": "2ef26a4a3c735a956d39d50ac90be35f",
+"index.html": "17578507d3f53c7744977e10b828130a",
+"/": "17578507d3f53c7744977e10b828130a",
+"main.dart.js": "17a89c7b404096b402933de1e2caecea",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "8c3849cceeed50704a4ac3b2fa4dffbd",
-"/": "8c3849cceeed50704a4ac3b2fa4dffbd",
-"main.dart.js": "c4b8cf32a541e8a8ab5b55c094246470",
-"manifest.json": "a24c9a3ebe2e16f3b30a06929c3e40b7",
-"version.json": "ffa581d17fed6bbdb2a624f9f92d9485"
+"manifest.json": "9064e5892b00388fa154d67b01225d39",
+"assets/AssetManifest.json": "ff8ddefc7e2439332adf3c10391775af",
+"assets/NOTICES": "65c3a97702ef6cf694965e4134675baf",
+"assets/FontManifest.json": "fa1532472ac8d61e1acaec83b2fc4135",
+"assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
+"assets/fonts/Proxima_Nova_Reg.ttf": "99e6f15dece8b6cbc0edee1da31e0365",
+"assets/fonts/Proxima_Nova_Bold.ttf": "91d3c9f35d738ae967ceadc661b29c2a",
+"assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
+"assets/assets/images/background.jpg": "a91d33a56e9fd0d6c7d90399a5603491",
+"assets/assets/images/avatar.png": "729b8f58f648abfa0887c214859a7539",
+"assets/assets/icons/linkedin.webp": "37d310909007e24c86083708415eb5c0",
+"assets/assets/icons/facebook.webp": "1d596f22d7d4090d408cc73271508208",
+"assets/assets/icons/linkedin.png": "5f6a0e9ad641f9561dddc1798048aff5",
+"assets/assets/icons/facebook.png": "a4ea3da69e89c5dcc9207ef7fe719610",
+"canvaskit/canvaskit.js": "43fa9e17039a625450b6aba93baf521e",
+"canvaskit/profiling/canvaskit.js": "f3bfccc993a1e0bfdd3440af60d99df4",
+"canvaskit/profiling/canvaskit.wasm": "a9610cf39260f60fbe7524a785c66101",
+"canvaskit/canvaskit.wasm": "04ed3c745ff1dee16504be01f9623498"
 };
 
 // The application shell files that are downloaded before a service worker can
@@ -41,7 +45,7 @@ self.addEventListener("install", (event) => {
   return event.waitUntil(
     caches.open(TEMP).then((cache) => {
       return cache.addAll(
-        CORE.map((value) => new Request(value + '?revision=' + RESOURCES[value], {'cache': 'reload'})));
+        CORE.map((value) => new Request(value, {'cache': 'reload'})));
     })
   );
 });
